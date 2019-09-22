@@ -29,7 +29,8 @@
     line-height: 48px;
 }
 
-.mainDiv {
+.mainleftDiv {
+    float: left;
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -37,7 +38,21 @@
     vertical-align: middle;
     position: absolute;
     top: 50%;
-    left:35%;
+    left:30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.mainrightDiv {
+    float: right;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    right:30%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
